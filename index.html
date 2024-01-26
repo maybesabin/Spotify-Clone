@@ -8,18 +8,80 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./src/.css">
 </head>
-<body>
+<body class="flex bg-black">
 
-    <section id="main-content" >
 
-        
+    <section class="fixed pt-2 pl-2">
+    <!--Home and Search -->
 
-    </section>
-    
+        <div id="search" class="flex items-start justify-center flex-col p-[1rem] gap-6 w-[420px] bg-[#121212] rounded-[10px] font-bold">
 
-    <section id="main" >
+            <div class="flex items-center gap-3 text-white fill-white">
+                <svg data-encore-id="icon" role="img" aria-hidden="true" height="24" width="34"
+                class="Svg-sc-ytk21e-0 bneLcE home-active-icon" viewBox="0 0 24 24">
+                <path d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z"></path></svg>
+                <a href="#">Home</a>
+            </div>
 
-    </section>
+            <div class="flex items-center gap-3 text-[#a7a7a7] fill-[#a7a7a7] ">
+                <svg width="34" height="24"  data-encore-id="icon" role="img" 
+                aria-hidden="true" class="Svg-sc-ytk21e-0 dYnaPI CIVozJ8XNPJ60uMN23Yg" viewBox="0 0 16 16"><path d="M7 1.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5zM.25 7a6.75 6.75 0 1 1 12.096 4.12l3.184 3.185a.75.75 0 1 1-1.06 1.06L11.304 12.2A6.75 6.75 0 0 1 .25 7z"></path></svg>
+                <a href="#">Search</a>
+            </div>
+        </div>    
+
+
+        <!--Your Libray-->
+       
+
+        <div class="text-[#a7a7a7] fill-[#a7a7a7] w-[420px] bg-[#121212] mt-2 h-[87vh] rounded-[10px] ">
+            <div  class="flex items-center justify-between p-4">
+                <div class="flex gap-4">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" height="24" width="24" 
+                    class="Svg-sc-ytk21e-0 bneLcE"><path d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z"></path></svg>
+                    <h3 class="font-bold text-[16px]">Your Library</h3>
+                </div>
+
+                <div class="flex gap-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"  >
+                        <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg> <!--PLUS-->
+
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                        <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg> <!--Arrow right-->
+                </div>
+            </div>
+
+            <!-- Playlist Albums Artists-->
+            <div id="buttons">
+                <button><a href="#">Playlists</a> </button>
+                <button><a href="#">Artists</a> </button>
+                <button><a href="#">Albums</a> </button>
+                
+            </div>
+
+            <!--Search and Recents-->
+
+            <div class="flex justify-between items-center pl-5 pr-5 pt-5 ">
+                <svg width="17" height="17"  data-encore-id="icon" role="img" 
+                aria-hidden="true" class="Svg-sc-ytk21e-0 dYnaPI CIVozJ8XNPJ60uMN23Yg" viewBox="0 0 16 16"><path d="M7 1.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5zM.25 7a6.75 6.75 0 1 1 12.096 4.12l3.184 3.185a.75.75 0 1 1-1.06 1.06L11.304 12.2A6.75 6.75 0 0 1 .25 7z"></path></svg>
+                
+                <div class="flex items-center justify-center gap-1 ">
+                    <h4 class="text-[14px]" >Recents</h4>
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" width="17" height="17"
+                    viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 cAMMLk"><path d="M15 14.5H5V13h10v1.5zm0-5.75H5v-1.5h10v1.5zM15 3H5V1.5h10V3zM3 3H1V1.5h2V3zm0 11.5H1V13h2v1.5zm0-5.75H1v-1.5h2v1.5z"></path></svg>
+                </div>
+            </div>
+
+        </div>
+
+    </section>  
+
+
+    <!--Main Content-->
+    <div class="w-[77%] mt-1 rounded-[10px] bg-[#121212] fixed top-1 left-[22.65%] bottom-[0%]" >
+
+    </div>
+
 </body>
 </html>
 
