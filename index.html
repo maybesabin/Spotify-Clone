@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./src/.css">
 </head>
-<body class="flex bg-black">
+<body class="flex bg-black fixed">
 
 
     <section class="fixed pt-2 pl-2">
@@ -59,29 +59,572 @@
                 
             </div>
 
+        <!--Liked Songs and Recents-->
+            <div id="likedsongs" class="h-[87%] likedsongs " >
+
             <!--Search and Recents-->
 
-            <div class="flex justify-between items-center pl-5 pr-5 pt-5 ">
+            <div class="flex justify-between items-center pl-5 pr-5 ">
                 <svg width="17" height="17"  data-encore-id="icon" role="img" 
                 aria-hidden="true" class="Svg-sc-ytk21e-0 dYnaPI CIVozJ8XNPJ60uMN23Yg" viewBox="0 0 16 16"><path d="M7 1.75a5.25 5.25 0 1 0 0 10.5 5.25 5.25 0 0 0 0-10.5zM.25 7a6.75 6.75 0 1 1 12.096 4.12l3.184 3.185a.75.75 0 1 1-1.06 1.06L11.304 12.2A6.75 6.75 0 0 1 .25 7z"></path></svg>
                 
                 <div class="flex items-center justify-center gap-1 ">
                     <h4 class="text-[14px]" >Recents</h4>
-                    <svg data-encore-id="icon" role="img" aria-hidden="true" width="17" height="17"
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" width="17" height="15"
                     viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 cAMMLk"><path d="M15 14.5H5V13h10v1.5zm0-5.75H5v-1.5h10v1.5zM15 3H5V1.5h10V3zM3 3H1V1.5h2V3zm0 11.5H1V13h2v1.5zm0-5.75H1v-1.5h2v1.5z"></path></svg>
                 </div>
             </div>
+            
+            
+            <!--PLaylist Start-->
+                <div class="item" >
+                    <img src="images/likedsongs.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Liked Songs</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <svg  data-encore-id="icon" role="img" aria-hidden="false" height="13" width="13"
+                            class="fill-green-600 Svg-sc-ytk21e-0 kLkTcI G7aCptcOZswI1fN6dGkO" viewBox="0 0 16 16"><title>Pinned</title><path d="M8.822.797a2.72 2.72 0 0 1 3.847 0l2.534 2.533a2.72 2.72 0 0 1 0 3.848l-3.678 3.678-1.337 4.988-4.486-4.486L1.28 15.78a.75.75 0 0 1-1.06-1.06l4.422-4.422L.156 5.812l4.987-1.337L8.822.797z"></path></svg>
+                            <h3>
+                                Playlist • 1 song
+                            </h3>
+                        </span>
+                    </div>
+                </div>
 
-        </div>
+                <div class="item2">
+                    <img src="images/playlist.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Aux Grabber</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Playlist • Sabin
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2">
+                    <img src="images/bineural.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Binaural Beats: Focus</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Playlist • Spotify
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 artist">
+                    <img src="images/lilbaby.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Lil Baby</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 artist">
+                    <img src="images/kendrick.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Kendrick Lamar</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 artist">
+                    <img src="images/jcole.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >J. Cole</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2">
+                    <img src="images/vibe.jpeg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >vibe</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Playlist • Sabin
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 artist ">
+                    <img src="images/kanye.jpeg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Kanye West</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2">
+                    <img src="images/offseason.jpeg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >The Off-Season</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Album • J. Cole
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 artist">
+                    <img src="images/popsmoke.jpeg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Pop Smoke</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2">
+                    <img src="images/astroworld.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Astroworld</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Album • Travis Scott
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+
+
+        <!--Playlist Initial End // Loop -->
+
+
+                <div class="item2 artist">
+                    <img src="images/lilbaby.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Lil Baby</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 artist">
+                    <img src="images/kendrick.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Kendrick Lamar</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 artist">
+                    <img src="images/jcole.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >J. Cole</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2">
+                    <img src="images/vibe.jpeg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >vibe</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Playlist • Sabin
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 artist ">
+                    <img src="images/kanye.jpeg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Kanye West</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2">
+                    <img src="images/offseason.jpeg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >The Off-Season</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Album • J. Cole
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 artist">
+                    <img src="images/popsmoke.jpeg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Pop Smoke</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Artist
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="item2 ">
+                    <img src="images/astroworld.jpg" alt="spotify heart" width="48px" height="48px" class="rounded-[5px]" >
+                    <div>
+                        <h3 class="text-white" >Astroworld</h3>
+                        <span class="flex items-center gap-2 text-[14px] " >
+                            <h3>
+                                Album • Travis Scott
+                            </h3>
+                        </span>
+                    </div>
+                </div>
+                        
+                </div>
+
+                </div>
 
     </section>  
 
 
+
+
     <!--Main Content-->
-    <div class="w-[77%] mt-1 rounded-[10px] bg-[#121212] fixed top-1 left-[22.65%] bottom-[0%]" >
+    <section class="w-[77%] mt-1 rounded-[10px] overflow-x-auto fixed top-1 left-[22.65%] bottom-[0%]"  id="mainContent">
 
-    </div>
+      <nav class="flex justify-between items-center" style="padding: 12px 17px 12px 17px;" >  
+        <!--NavBar-->
 
+        <!--Back and Front buttons-->
+
+        <div class="flex fill-[#a0a0a0] gap-2 " >
+            <span  style="background-color:#0f100f; border-radius: 50%;" id="back-btn" >
+                <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20">
+                    <path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+            </span>
+
+            <span style="background-color: #0f100f; border-radius: 50%;" id="front-btn" >
+                <svg  xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20">  
+                    ><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+            </span>
+        </div>
+
+
+       <!--Explore premium and install app-->
+        <div class="flex gap-2 justify-center items-center">
+            <div class="flex gap-2">
+                <button class="bg-white text-black rounded-[25px] font-bold text-[14px] addScale" style="padding: 5px 17px 5px 17px;"> Explore Premium</button>
+                
+                <div class="flex text-white font-bold text-[14px] bg-black rounded-[25px] gap-2 addScale" style="padding: 5px 15px 5px 15px; ">
+                    
+                    <svg data-encore-id="icon" height="23" width="16" class="fill-white" role="img" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI">
+                        <path d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528a.945.945 0 0 1-.005-.005L4.995 9.805a.75.75 0 0 1 0-1.06z"></path><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z"></path></svg>
+                    <h3>Install App</h3>    
+                </div>
+            
+            </div>
+
+            <!--User Icon-->
+            <div class="flex items-center justify-center gap-2">
+
+                <button class="fill-[#616261] bg-black rounded-[50%] p-1 addScale ">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                        <path d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"/></svg>
+                </button>
+
+
+                <button class="bg-black rounded-[50%] p-1 addScale">
+                    <img src="images/jcole.jpg" alt="jcole" width="27" height="27" class="rounded-[50%]" >
+                </button>
+                
+            </div>
+        </div>
+      </nav>
+
+      <section id="recents"  class=" pl-6">
+        <h1 class="text-white font-bold pt-1 text-[32px]" id="greeting" >Good evening</h1>
+
+
+    <!-- Recently Played Songs-->
+        <div class="box-container flex w-[100%] flex-wrap pt-2 gap-3">
+
+            <div class="box"  id="item" onmouseenter="bgred()" >
+                <div class="flex items-center justify-start gap-3">
+                    <img src="images/bineural.jpg" alt="">
+                    <h2>Binaural Beats: Focus</h2>
+                </div>
+
+                <img src="images/playbutton.png" id="hidden-img" alt="play button">
+            </div>
+
+            <div class="box" >
+                <div class="flex items-center justify-start gap-3">
+                    <img src="images/playlist.jpg" alt="">
+                    <h2>Aux Grabber</h2>
+                </div>
+
+                <img src="images/playbutton.png" id="hidden-img" alt="play button">
+            </div>
+
+            <div class="box" >
+                <div class="flex items-center justify-start gap-3">
+                    <img src="images/kendrick.jpg" alt="">
+                    <h2>Hip Hop Mix </h2>
+                </div>
+
+                <img src="images/playbutton.png" id="hidden-img" alt="play button">
+            </div>
+
+            <div class="box" >
+                <div class="flex items-center justify-start gap-3">
+                    <img src="images/50cent.jpg" alt="">
+                    <h2>50 Cent</h2>
+                </div>
+
+                <img src="images/playbutton.png" id="hidden-img" alt="play button">
+            </div>
+
+            <div class="box" >
+                <div class="flex items-center justify-start gap-3">
+                    <img src="images/offseason.jpeg" alt="">
+                    <h2>The Off-Season</h2>
+                </div>
+
+                <img src="images/playbutton.png" id="hidden-img" alt="play button">
+            </div>
+
+            <div class="box" >
+                <div class="flex items-center justify-start gap-3">
+                    <img src="images/popsmoke.jpeg" alt="">
+                    <h2>Pop Smoke</h2>
+                </div>
+
+                <img src="images/playbutton.png" id="hidden-img" alt="play button">
+            </div>
+
+        </div>
+
+      </section>
+
+
+    <!--Your Top Mixes-->    
+
+    <section id="top-mixes" class="pl-6 pt-8 text-white font-bold text-[24px]">
+        <div class="flex justify-between pr-8 items-center ">
+            <a href="">Your top mixes</a>
+            <a href="">Show all</a>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <span>
+                    <img src="images/mix/hindimix.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>Hindi Mix</h3>
+                    <h4>The Local Train, Shae Gill, Arjun Kanungo a...</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix/21mix.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>21 Savage Mix</h3>
+                    <h4>J. Cole, Metro Boomin and Kanye West</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix/popmix.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>Pop Mix</h3>
+                    <h4>Adele, One Direction, Justin Bieber and more</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix/rnbmix.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>R&B Mix</h3>
+                    <h4>Metro Boomin, Future, The Weeknd and more</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix/theweeknd.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>The Weeknd Mix</h3>
+                    <h4>Kanye West, Metro Boomin and J. Cole</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix/chillmix.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>Chill Mix</h3>
+                    <h4>Travis Scott, 21 Savage, The Weeknd and more</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix/moodymix.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>Moody Mix</h3>
+                    <h4>The Local Train, Shae Gill, Arjun Kanungo a...</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!--Made For You-->
+    <section id="top-mixes" class="pl-6 pt-8 text-white font-bold text-[24px]">
+        <div class="flex justify-between pr-8 items-center ">
+            <a href="">Made For Sabin</a>
+            <a href="">Show all</a>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <span>
+                    <img src="images/mix1.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>21 Savage Mix</h3>
+                    <h4>J. Cole, Metro Boomin and Kanye West</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix2.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>Pop Mix</h3>
+                    <h4>Adele, One Direction, Justin Bieber and more</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix3.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>R&B Mix</h3>
+                    <h4>Metro Boomin, Future, The Weeknd and more</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix4.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>The Weeknd Mix</h3>
+                    <h4>Kanye West, Metro Boomin and J. Cole</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix5.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>Chill Mix</h3>
+                    <h4>Travis Scott, 21 Savage, The Weeknd and more</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/mix6.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>Moody Mix</h3>
+                    <h4>The Local Train, Shae Gill, Arjun Kanungo a...</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+
+            <div class="card">
+                <span>
+                    <img src="images/discover.jpg" alt="" >
+                </span>
+                <div class="card-texts">
+                    <h3>Discover Weekly</h3>
+                    <h4>The Local Train, Shae Gill, Arjun Kanungo a...</h4>
+                </div>
+                <img src="images/playbutton.png" id="card-playbtn" width="50px" alt="play button" >
+            </div>
+        </div>
+
+
+    </section>
+
+      
+
+    </section>
+
+    <script src="https://kit.fontawesome.com/23cecef777.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 </html>
 
