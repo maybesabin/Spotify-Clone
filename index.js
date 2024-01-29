@@ -5,6 +5,6 @@ mainContent.style.background = "linear-gradient(#1a1d1a, black)"
 mainContent.style.transition = ".4s"
 
 function bgred(){
-    mainContent.style.background = "linear-gradient(red,black)"
+    // mainContent.style.background = "linear-gradient(blue,black)"  <--  Changes color on hover
     
 }
